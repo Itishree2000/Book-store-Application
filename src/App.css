@@ -1,0 +1,109 @@
+/* Book Component Styles */
+/* Book Grid Container */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+  grid-gap: 20px; /* Adjust space between books */
+  padding: 20px; /* Adjust as needed */
+}
+
+/* Book Component Styles */
+.book {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.book:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+  
+  /* Expanded Book View */
+  .book.expanded {
+    width: 100%;
+    border: 2px solid #4285f4; /* Adjust color */
+  }
+  
+ /* Book Detail Container */
+.book-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Book Cover Styles */
+.book-cover img {
+  max-width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Book Info Styles */
+.book-info {
+  flex: 1;
+}
+
+.book-info h2 {
+  margin-bottom: 10px;
+}
+
+/* Buttons Styles */
+.book-info button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.book-info button:hover {
+  background-color: #0b5bdd;
+}
+
+  /* Navbar Styles */
+  .navbar {
+    background-color: #030303; /* Adjust color */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .navbar button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4285f4; /* Adjust color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #0b5bdd; /* Adjust hover color */
+  }
+  
+  /* Common Button Styles */
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4285f4; /* Adjust color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0b5bdd; /* Adjust hover color */
+  }
+  
